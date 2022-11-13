@@ -1,8 +1,9 @@
 header{
     display: flex;
-    background-color: darksalmon;
     justify-content: center;
-    padding: 30px;
+    padding: 50px 60px 20px 60px;
+    color: white;
+    background-color: darksalmon;
 }
 
 img{
@@ -13,6 +14,7 @@ img{
 
 body {
     background-color: cornsilk;
+    margin: 0px;
 }
 button{
     background-color: brown;
