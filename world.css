@@ -1,11 +1,8 @@
-#header{
-    background-color: darksalmon;
-}
-header h1 {
+header{
     display: flex;
-    padding: 30px;
+    background-color: darksalmon;
     justify-content: center;
-    margin:0%;
+    padding: 30px;
 }
 
 img{
@@ -16,4 +13,7 @@ img{
 
 body {
     background-color: cornsilk;
+}
+button{
+    background-color: brown;
 }
