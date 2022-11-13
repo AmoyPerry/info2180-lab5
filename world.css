@@ -1,1 +1,19 @@
-/* Add your own styles */
+#header{
+    background-color: darksalmon;
+}
+header h1 {
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    margin:0%;
+}
+
+img{
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+}
+
+body {
+    background-color: cornsilk;
+}
