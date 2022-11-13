@@ -4,6 +4,7 @@ header{
     padding: 50px 60px 20px 60px;
     color: white;
     background-color: darksalmon;
+    font-family:cursive;
 }
 
 img{
@@ -16,6 +17,43 @@ body {
     background-color: cornsilk;
     margin: 0px;
 }
-button{
+button#lookup{
     background-color: brown;
+    width: 70px;
+    display:flex;
+}
+
+
+#TableofCountry tr
+{
+    background-color: #f2f2f2;
+}
+
+#TableofCountry th {
+  background-color: gray;
+  color: white;
+}
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    padding: 50px 30px;
+  }
+  
+  #TableofCountry td {
+    border: 3px solid #ddd;
+
+    padding: 8px;
+  }
+
+#controls{
+    padding: 20px;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 30%;
+    padding-right: 30%;;
+}
+input{
+    width: 600px;
+    padding: 12px;
 }
